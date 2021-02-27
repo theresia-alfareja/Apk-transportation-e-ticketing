@@ -1,0 +1,203 @@
+
+/* Style unyuk Navbar */
+.navbar-brand{font-family: candara;font-weight: bold;margin-left: 5%;letter-spacing: 1px;}
+nav .collapse {margin-left: 2%;}
+.nav-item{margin-left: 30px;}
+
+/*Style Home Page*/
+        /* Style Carousel Jumbotron*/
+        .carousel-item{position: relative;}
+        .jombotron {
+          position: absolute;
+          top: 0;bottom: 0;left: 0;right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0.6;
+          transition: .5s ease;
+          background-color: black;
+        }
+        h1.judul-jumbotron{
+          color: white;
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        p.isi-jumbotron{
+           position: absolute;
+           top: 55%;
+           left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          font-size: 20px;
+          text-align: center;
+        }
+        /* Style unyuk Konten "Buatlah perjalanan anda menjadi lebih mudah! " */
+        .content-home-1 {padding-top: 5%; padding-bottom: 5% }
+        .content-home-1 h2{text-align: center;margin-bottom:6%;}
+        .col-lg-3 img {max-width: 70%;margin-left: 5%;}
+        .col-lg-3 h4 {margin-top:4%;}
+        .col-lg-3 p {text-align: justify;width: 80%; color: black;}
+        /* Style unyuk Konten "Pemesanan Tiket" */
+        .content-home-2{ 
+            padding-top: 5%; padding-bottom: 5%;
+            background: rgb(0,107,252);
+            background: linear-gradient(0deg, rgba(0,107,252,1) 0%, rgba(0,247,174,1) 100%); }
+        .content-home-2 h1{text-align: center;margin-bottom:5%; color: white; font-weight: lighter;}
+        .travel-people {width: 100%;}
+        /* Style destinasi wisata */
+        .content-home-3{ padding-top: 4%; padding-bottom: 4%;}
+        .content-home-3 h2 {text-align: center; margin-bottom: 5%; }
+        .col-lg-4{position: relative;}
+        .col-lg-4 img{width: 100%; height: 80%; border-radius: 5px;display: block;}
+        .overlay {
+          position: absolute;
+          border-radius: 5px;
+          top: 0;bottom: 0;left: 0;right: 0;
+          height: 80%;
+          width: 94%;
+          margin-left: 3%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: black;}
+        .col-lg-4:hover .overlay {
+          opacity: 0.6; 
+          cursor: pointer;}
+        a.text{
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        /* Style unyuk Konten "Mengapa memilih Kami?" */
+        .content-home-4 {
+          padding-top: 5%; padding-bottom: 5%;
+          background: rgb(141,152,250);
+          background: linear-gradient(90deg, rgba(141,152,250,1) 12%, rgba(41,181,116,1) 40%, rgba(62,58,180,1) 98%); }
+        .content-home-4 h1,h6,p{color: white; font-weight: lighter;}
+        .transportation {margin-top: -5%;}
+          img.plan {width: 25%; margin-left: 5%; position: absolute;}
+          img.train { width: 15%; margin-top: 8%;margin-left: 15%; position: absolute;}
+          img.ship { width: 18%; margin-left: 25%; margin-top: 10%; position: absolute;}
+          img.bus { width: 20%; margin-top: 10%; margin-left: 2%; position: absolute;}
+        /* Style unyuk Tabs Pemesanan tiket */
+        #tabs{background: transparent;border:none; transition: 0.3s; color: white;}
+        #tabs ul{background: transparent;border:none;}
+        #tabs li{background: transparent;border:none;}
+        #tabs li a i{font-size: 30px;}
+        #tabs li:hover{transition: 0.2s;}
+        #tabs a{transition: 0.5s;}
+        #tabs li :after{ color: yellow;}
+          #tabs-1, #tabs-2, #tabs-3, #tabs-4{background: transparent; font-weight: lighter;} 
+        	#tabs-1 h2, #tabs-2 h2, #tabs-3 h2, #tabs-4 h2{color: white;font-weight: lighter;}
+        	#tabs-1 h4,#tabs-2 h4,#tabs-3 h4, #tabs-4 h4{color: white;font-weight: lighter;}
+        	#tabs-1 h6,#tabs-2 h6,#tabs-3 h6, #tabs-4 h6{color: white;font-weight: lighter;margin-bottom: 50px;}
+        	#tabs-2 a,#tabs-3 a, #tabs-1 a,#tabs-4 a 
+          { text-decoration: none;
+            position: absolute;
+            width: 250px;
+            border: 5px white solid;
+            padding: 1%;
+            outline: none;
+            color: #fff;
+            background: transparent;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            transition: width 0.5s;}
+          #tabs-1 a img, #tabs-2 a img,#tabs-3 a img, #tabs-4 a img{display: none;}
+          #tabs-1 a:hover img{display: block;}
+          #tabs-2 a:hover img{display: block;}
+          #tabs-3 a:hover img{display: block;}
+          #tabs-4 a:hover img{display: block;}
+          #tabs-1 a:hover{
+            width:270px;
+            display: flex;align-items: center;
+            justify-content: space-between;
+          }           
+          #tabs-2 a:hover{
+            width:270px;
+            display: flex;align-items: center;
+            justify-content: space-between;
+          } 
+          #tabs-3 a:hover{
+            width:270px;
+            display: flex;align-items: center;
+            justify-content: space-between;
+          } 
+          #tabs-4 a:hover{
+            width:270px;
+            display: flex;align-items: center;
+            justify-content: space-between;
+          }
+
+/*Style About Page*/
+          .content-about
+            {background:  background: rgb(31,101,196); padding-bottom: 6%;
+             background: linear-gradient(0deg, rgba(31,101,196,1) 0%, rgba(33,150,210,1) 46%, rgba(1,203,143,1) 85%); }      
+          .content-about .col-lg-9 {padding: 4%; background: #fff;border-radius: 10px;margin-bottom: 2%;}
+          .content-about h1 {text-align: center; margin-bottom: 4%;}
+          .content-about h5 {font-weight: lighter; text-align: justify;}
+          img.about {margin-bottom: -10%; width: 60%;}
+
+/*Style Contact Us Page*/
+          .content-contact{
+              background: rgb(84,255,109); padding-bottom: 6%;
+              background: linear-gradient(0deg, rgba(84,255,109,1) 0%, rgba(0,255,145,1) 0%, rgba(3,182,107,1) 0%, rgba(117,206,252,1) 100%); 
+          } 
+          img.contact{width: 40%; margin-bottom: -4%; margin-top: 3%;}
+          .content-contact i {font-size:30px;}
+          .content-contact .col-lg-9 {padding: 4%; background: #fff;border-radius: 10px;margin-bottom: 2%;}
+          .content-contact h1 {text-align: center; margin-bottom: 4%;}
+
+footer{background-color: #f5f5f5; padding-top: 5%;padding-bottom: 0.5%;}
+   footer h5{font-weight: normal; text-align: center; font-size: 18px; margin-bottom:25px;}
+  .logo-pembayaran img {width: 50%; margin-bottom: 5%;}
+  .logo-download img {width: 60%; margin-bottom: 5%;}
+  .fa-facebook,.fa-instagram,.fa-twitter,.fa-youtube
+  {font-size: 30px; text-align: center;color:#666; margin-top: 1%;cursor: pointer;}
+  .fa-instagram,.fa-twitter,.fa-youtube{margin-left: 2%;}
+
+
+
+@media only screen and (max-width: 1000px) {
+  #navbarSupportedContent{margin-left: 5%;}
+  .jombotron{display: none;}
+  h1.judul-jumbotron{display: none;}
+        p.isi-jumbotron{display: none;}
+  
+  .content-home-1{padding-top: 20%;padding-bottom: 3%;}
+  .col-lg-3 img {max-width: 40%;margin-left: 30%;}
+  .col-lg-3 h4 {margin-top:1%; text-align: center;}
+  .col-lg-3 p {text-align: justify;width: 100%; color: black; margin-bottom: 10%;}
+  .content-home-2 img{display: none;}
+  .col-lg-5{padding-bottom: 10%;}
+  .content-home-4 img{display: none;}
+  #tabs{width: 100%; margin-left: 0;}
+  #tabs li{ font-size: 18px; margin-left: -0%;}
+  
+  .content-about .col-lg-9{width: 95%; border-radius: 0; margin-left: 2.5%;}
+  img.about {margin-bottom: 0; margin-top: 5%;}
+  .content-contact .col-lg-9{width: 95%; border-radius: 0; margin-left: 2.5%;}
+  img.contact {margin-bottom: 5%; margin-top: 8%;}
+
+  footer{padding-top: 15%;}
+  footer h5 {font-size: 18px;margin-bottom: 8px;}
+  footer .col {width: 100%; margin-bottom: 10%;}
+  .logo-pembayaran img {width: 20%; margin-bottom: 2%;}
+  .fa-facebook,.fa-instagram,.fa-twitter,.fa-youtube{font-size: 37px; margin-bottom: 5%;}
+  .fa-instagram,.fa-twitter,.fa-youtube{margin-left: 6%;}
+}
+
+
+
+

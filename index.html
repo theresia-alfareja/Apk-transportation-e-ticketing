@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <script src="https://kit.fontawesome.com/281abfbf40.js" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="company-profile.css">
+    <!--Script JS inti Jquery-->
+	  <script type="text/javascript" src="jquery-3.5.1.js"></script>
+	  <!--Script JS JqueryUI-->
+	  <script type="text/javascript" src="Template-jqueryUI/jquery-ui.js"></script>
+	  <!--Link CSS JqueryUI-->
+	  <link rel="stylesheet" type="text/css" href="Template-jqueryUI/jquery-ui.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+
+    <title>TikOn.com</title>
+
+    <script type="text/javascript">
+			$(document).ready(function (){
+				$("#tabs").tabs();
+			});
+    </script>
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html,">TikOn</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">
+            <b><i class="fas fa-home"></i> Home</b></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-users-cog"></i> Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Tiket Pesawat</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Tiket Kapal</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Tiket Kereta</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Tiket Bus</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentang.html"><i class="far fa-address-card"></i> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact-us.html"><i class="fas fa-phone-square-alt"></i> Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+            <a href="form-login.php" class="btn btn-primary me-md-2 me-2" type="submit">Log In</a>
+            <a href="form-register.php" class="btn btn-info me-md-2"  type="submit">Sign Up</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+	    <div class="carousel-item active">
+        <img src="img/pantai-pink-flores.jpg" class="d-block w-100" alt="Pantai Pink" id="img-carousel">
+              <div class="jombotron"></div>
+              <h1 class="judul-jumbotron">Pantai Pink NTT</h1>
+              <p class="isi-jumbotron">Pantai Tangsi atau yang lebih dikenal dengan Pantai Pink dari Pulau Lombok terletak di desa Sekaroh, kecamatan Jerowaru, kabupaten Lombok Timur adalah sebuah destinasi wisatawan yang menarik dan patut untuk dikunjungi karena keunikannya</p>
+      </div>
+	    <div class="carousel-item">
+	      <img src="img/toba-lake.jpg" alt="Tobalake" class="d-block w-100">
+              <div class="jombotron"></div>
+              <h1 class="judul-jumbotron">Danau Toba Sumatra Utara</h1>
+              <p class="isi-jumbotron">Danau Toba adalah danau alami berukuran besar di Indonesia yang berada di kaldera Gunung Supervulkan. Danau ini memiliki panjang 100 kilometer, lebar 30 kilometer, dan kedalaman 505 meter. Danau ini terletak di tengah pulau Sumatra bagian utara dengan ketinggian permukaan sekitar 900 meter.</p>
+	    </div>
+      <div class="carousel-item">
+        <img src="img/pantai-morotai.jpg" class="d-block w-100" alt="Pantai Morotai" >
+              <div class="jombotron"></div>
+              <h1 class="judul-jumbotron">Pantai Morotai Maluku</h1>
+              <p class="isi-jumbotron">Wilayah Maluku Utara dianugerahi oleh keindahan pulau yang luar biasa, Pulau Dodola adalah salah satunya. Pulau Dodola di wilayah Morotai, Maluku Utara, merupakan wilayah yang cantik dan sangat indah. Kecantikan pulau tak berpenghuni ini akan membuat Anda bertekuk lutut. Keindahannya akan membuat Anda diam dan terus menggaguminya.</p>
+      </div>
+	    <div class="carousel-item">
+	      <img src="img/taman-safari-bogor.jpg" class="d-block w-100"  alt="Taman Safari">
+              <div class="jombotron"></div>
+              <h1 class="judul-jumbotron">Taman Safari Bogor</h1>
+              <p class="isi-jumbotron">Taman Safari Indonesia adalah tempat wisata keluarga berwawasan lingkungan yang berorientasi pada habitat satwa di alam bebas. Taman Safari Indonesia terletak di Desa Cibeureum Kecamatan Cisarua, Kabupaten Bogor, Jawa Barat atau yang lebih dikenal dengan kawasan Puncak. </p>
+	    </div>
+	    <div class="carousel-item">
+        <img src="img/surga-ikan-bunaken.jpg" class="d-block w-100" alt="bunaken" class="tinggi">
+              <div class="jombotron"></div>
+              <h1 class="judul-jumbotron">Taman Nasional Bunaken</h1>
+              <p class="isi-jumbotron"> Bunaken telah dikenal oleh masyarakat, baik lokal ataupun mancanegara karena keindahan alam bawah lautnya.Bahkan UNESCO di tahun 2005 telah menjadikan Taman Laut Bunaken sebagai salah satu situs warisan dunia. Kalau secara geografis sendiri, Pulau Bunaken masuk dalam wilayah perairan Segi Tiga Emas dengan ada kurang lebih 3000 an spesies ikan hidup di perairan ini. </p>
+      </div>
+      <div class="carousel-item">
+        <img src="img/wonosobo-jateng.jpg" class="d-block w-100" alt="bunaken" class="tinggi">
+              <div class="jombotron"></div>
+              <h1 class="judul-jumbotron">Wonosobo Jawa Tengah</h1>
+              <p class="isi-jumbotron">Atau biasa disebut wisata Dieng telah menjadi primadona wisatawan yang ingin merasakan sensasi berlibur dengan suasana pegunungan yang asri dan alami. Tak hanya udaranya yang sejuk, Wisata Dieng memiliki suguhan alam yang sangat menawan dan mampu membuat kagum para pelancong yang berkunjung.</p>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<!-- Konten Website -->
+
+
+
+<div class="content-home-1">
+<div class="container">	
+    <h2>Buatlah perjalanan anda menjadi lebih mudah!</h2>
+     <div class="row justify-content-center">
+       <div class="col-lg-3">
+           <img src="img/icon-jadwal.png"><br>
+              <h4>Cek jadwal</h4>
+              <p>Mau naik transportasi apapun, Anda dapat melakukan pengecekan jadwal keberangkatan dengan mudah dan cepat kapanpun Anda inginkan. 
+              </p>
+        </div>
+        <div class="col-lg-3">
+            <img src="img/gk-perlu-repot.png">
+               <h4>Gak pake repot</h4>
+               <p>Siap bepergian jauh hanya dengan satu sentuhan jari, tiket transportasi yang kamu butuhkan bisa didapatkan dengan mudah dan cepat.
+               </p>
+        </div>
+        <div class="col-lg-3">
+            <img src="img/payment-method.png">
+               <h4>Banyak Pilihan Metode Pembayaran</h4>
+               <p>Tersedia pilihan metode pembayaran lengkap seperti ATM transfer maupun gerai ritel. Privasi untuk setiap transaksi anda terjamin aman.
+               </p>
+        </div>
+     </div>
+</div>
+</div>
+
+
+<div class="content-home-2">
+  <div class="container">
+    <h1>Kami Siap Melayani Anda...Kamu Mau Naik  Apa?</h1>
+      <div class="row">
+          <div class="col-lg-7">
+                <div id="tabs">
+                    <ul>
+                      <li><a href="#tabs-2" ><i class="fas fa-plane"></i></a></li>
+                      <li><a href="#tabs-1" ><i class="fas fa-ship"></i></a></li>
+                      <li><a href="#tabs-3" ><i class="fas fa-train"></i></a></li>
+                      <li><a href="#tabs-4" ><i class="fas fa-bus"></i></a></li>
+                    </ul>
+                        <div id="tabs-1">
+                          <p>
+                            <h2>Tiket Kapal</h2> <br>
+                            <h4>Dapatkan tikel kapal 24 jam</h4> <br>
+                            <h6>Cek jadwal keberangkatan kapal 24 jam dengan aplikasi TikOn.com, kamu bisa membeli tiket kapal dengan mudah dan murah disini.<h6>
+                            <a href="#">Pesan Tiket Kapal
+                              <img src="img/arrow.png" width="30" height="10">
+                            </a> 
+                          </p>
+                        </div>
+                        <div id="tabs-2">
+                          <p> 
+                            <h2>Tiket Pesawat</h2> <br>
+                            <h4>Dapatkan tikel pesawat 24 jam</h4> <br>
+                            <h6>Cek jadwal kebernagkatan pesawat 24 jam dengan aplikasi TikOn.com, kamu bisa membeli tiket pesawat dengan mudah dan murah disini.<h6>
+                            <a href="#">Pesan Tiket Pesawat 
+                              <img src="img/arrow.png" width="30" height="10">
+                            </a>
+                          </p>
+                        </div>
+                        <div id="tabs-3">
+                          <p>
+                            <h2>Tiket Kereta Api</h2><br>
+                            <h4>Dapatkan tikel kereta api 24 jam</h4><br>
+                            <h6>Cek jadwal kebernagkatan kereta api 24 jam dengan aplikasi TikOn, kamu bisa membeli tiket kereta api dengan mudah dan murah disini.<h6>
+                            <a href="#">Pesan Tiket Kereta 
+                              <img src="img/arrow.png" width="30" height="10">
+                            </a>
+                          </p>
+                        </div>
+                        <div id="tabs-4">
+                          <p>
+                            <h2>Tiket Bus</h2><br>
+                            <h4>Dapatkan tikel Bus 24 jam</h4><br>
+                            <h6>Cek jadwal kebernagkatan bus 24 jam dengan aplikasi TikOn.com, kamu bisa membeli tiket bus dengan mudah dan murah disini.<h6>
+                            <a href="#">Pesan Tiket Bus 
+                              <img src="img/arrow.png" width="30" height="10"></a>
+                          </p>
+                        </div>
+                </div>
+          </div>
+          <div class="col-lg-5">
+              <img src="img/travel-people.png" class="travel-people">
+          </div>
+        </div>
+   </div>
+</div>
+
+
+<div class="content-home-3">
+  <div class="container">
+     <h2>Bingung mau jalan-jalan kemana? <br> Kami menawarkan destinasi wisata di indonesia.</h2>
+        <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                     <img src="img/pantai.jpg">
+                       <div class="overlay"></div>
+                             <a href="#" class="text">Wisata Pantai</a>
+                    </div>
+                    <div class="col-lg-4">
+                      <img src="img/diving.jpg">
+                       <div class="overlay"></div>
+                             <a href="#" class="text">Diving Resort</a>
+                    </div>
+                    <div class="col-lg-4">
+                      <img src="img/konservasi-alam.jpg">
+                       <div class="overlay"></div>
+                             <a href="#" class="text">Konservasi Alam</a>
+                    </div>
+                    <div class="col-lg-4">
+                      <img src="img/danau.jpg">
+                       <div class="overlay"></div>
+                             <a href="#" class="text">Wisata Danau</a>
+                    </div>
+                    <div class="col-lg-4">
+                      <img src="img/kebun-binatang.jpg">
+                       <div class="overlay"></div>
+                             <a href="#" class="text">Kebun Biinatang</a>
+                    </div>
+                    <div class="col-lg-4">
+                      <img src="img/pegunungan.jpg">
+                       <div class="overlay"></div>
+                             <a href="#" class="text">Wisata Peguunungan</a>
+                    </div>
+          </div>
+  </div>
+</div>
+
+
+<div class="content-home-4">
+    <div class="container">
+       <div class="row">
+            <div class="col-lg-7">
+                  <div class="transportation">
+                      <img src="img/plan.png" class="plan">
+                      <img src="img/ship.png" class="ship">
+                      <img src="img/bus-2.png" class="bus">
+                      <img src="img/train.png" class="train">
+                  </div>
+              </div>
+              <div class="col-lg-5">
+                 <h1>Mengapa Memilih <br> E-Ticket?</h1>  <br>
+                 <h6>
+                    <p>Anda tidak perlu repot lagi untuk melakukan perjalanan yang jauh. Mulai dari pemesanan dan pembayaran tiket bus sampai tiket pesawat, Kami telah menyelesaikan semua hal yang rumit dalam 1 aplikasi.</p>
+                    <p>Teknologi kami ingin memudahkan anda dalam menyampaikan segala informasi mengenai 
+                       jadwalperjalanan anda. Jadi, Anda memiliki lebih banyak waktu untuk merencanakan bagian yang menyenangkan dari perjalanan Anda!</p>
+                    <p>Anda dapat mengandalkan kami. Kami menawarkan layanan e-ticketing dalam 24 jam penuh dan tim kami dengan senang hati membantu anda. </p>
+                  </h6>
+              </div>
+       </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+      <div class="row row-cols-5">
+        <div class="col">
+            <h5>Follow Us</h5>
+          <center>
+            <i class="fab fa-facebook"></i> 
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+          </center>
+        </div>
+        <div class="col">
+              <h5>Payment Pertners:</h5>
+              <center>
+                <div class="logo-pembayaran">
+                      <img src="img/bni.png">
+                      <img src="img/mandiri.png">
+                      <img src="img/indomaret.png">
+                      <img src="img/alfamart.png">
+                  </div>
+              </center>
+        </div>
+        <div class="col">
+            <h5>E-ticketing</h5>
+                  <li><a href="#">Tentang E-eticketing</a></li>
+                  <li><a href="#">Syarat & Ketentuan</a></li>
+                  <li><a href="#">Kebijakan Privasi</a></li>
+                  <li><a href="#">Home</a></li>
+        </div>
+        <div class="col">
+            <h5>Customer Services</h5>
+                <li><a href="#">Cara Pemesanan</a></li>
+                <li><a href="#">Cek Pemesanan</a></li>
+                <li><a href="#">Konfirmasi Pembayaran</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Huubungi Kami</a></li>
+        </div>
+        <div class="col">
+             <h5>Download Application</h5>
+              <center>
+                <div class="logo-download">
+                    <img src="img/logo-playstore.png">
+                    <img src="img/logo-appstore.png">
+                  </div>
+              </center>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <p style="color: black;text-align: center;">
+        Hak cipta ©– 2021 E-ticket Digital Company. Website ini tidak resmi. <br>
+      TikOne.com adalah aplikasi E-ticketing percobaan yang dikembangkan hanya untuk uji coba.
+    </p>
+</footer>
+
+  </body>
+</html>
